@@ -1,11 +1,11 @@
 Primers for paired-end 16s community sequencing on the 					
-Illumina HiSeq platform using bacteria/archaeal primer 					
+Illumina MiSeq platform using bacteria/archaeal primer 					
 515F/806R. 					
  					
 ------------------------------------------					
 515F (forward primer) PCR primer sequence:					
 ------------------------------------------					
-"Field number (space-delimited), description:"					
+Field number (space-delimited), description:					
 1. 5' Illumina adapter					
 2. Forward primer pad					
 3. Forward primer linker					
@@ -31,7 +31,7 @@ AATGATACGGCGACCACCGAGATCTACACGCT AATTTAGGTAGG TATGGTAATT GT GTGYCAGCMGCCGCGGTAA	
 2168 GoLay barcoded reverse PCR primers. Each primer is followed by a barcode identifier					
 generated specifically for this set of primers.					
 					
-"Field number (space-delimited), description:"					
+Field number (space-delimited), description:					
 1. Reverse complement of 3' Illumina adapter					
 2. Golay barcode					
 3. Reverse primer pad					
@@ -43,7 +43,7 @@ CAAGCAGAAGACGGCATACGAGAT AGTCAGTCAG CC GGACTACNVGGGTWTCTAAT
 -------------------------					
 Read 1 sequencing primer:					
 -------------------------					
-"Field number (space-delimited), description:"					
+Field number (space-delimited), description:					
 1. Forward primer pad					
 2. Forward primer linker					
 3. Forward primer					
@@ -66,3 +66,4 @@ Index sequence primer:
 					
 AATGATACGGCGACCACCGAGATCTACACGC					
 					
+N=A/C/G/T, V=A/G/C, M=A/C, W=A/T, Y=C/T
